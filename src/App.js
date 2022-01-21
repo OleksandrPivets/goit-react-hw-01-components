@@ -19,7 +19,7 @@ function App() {
         stats={user.stats}
       />
       <Statistics stats={data}/>
-      <FriendList friends={friends} />
+      <FriendList items={friends} />
       <TransactionHistory items={transactions} />
     </div>
   );
