@@ -1,4 +1,4 @@
-import Profile from './components/Profile/Profile'
+import Profile from './components/Profile/Profile';
 import user from './data/user.json';
 import FriendList from './components/FriendList/FriendList';
 import friends from './data/friends.json';
@@ -11,21 +11,19 @@ function App() {
   return (
     <div>
       <Profile
-      username ={user.username}
-      tag = {user.tag}
-      location = {user.location}
-      avatar = {user.avatar}
-      statsFollowers = {user.stats.followers}
-      statsViews = {user.stats.views}
-      statsLikes = {user.stats.likes}
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        statsFollowers={user.stats.followers}
+        statsViews={user.stats.views}
+        statsLikes={user.stats.likes}
       />
-
       <Statistics title="Upload stats" stats={data} />
-
       <FriendList friends={friends} />
-
       <TransactionHistory items={transactions} />;
     </div>
-  )}
+  );
+}
 
 export default App;

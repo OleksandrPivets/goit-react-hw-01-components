@@ -1,14 +1,12 @@
-.profile{
-    display: block;
-    
+.profile {
+  display: block;
 }
 
-.avatar{
-    height: 150px;
-    width: 150px;
+.avatar {
+  height: 150px;
+  width: 150px;
 }
 
-.stats{
-    display: flex;
-
+.stats {
+  display: flex;
 }
