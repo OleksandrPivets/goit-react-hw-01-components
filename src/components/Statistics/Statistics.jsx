@@ -1,5 +1,6 @@
 import StatisticsList from './StatisticsList';
 import PropTypes from 'prop-types';
+import './statistics.css';
 
 const Statistics = ({ title, stats }) => {
   return (

@@ -1,0 +1,25 @@
+.statistics {
+  display: block;
+  margin: 10px auto;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  background-color: gray;
+}
+
+.title {
+  margin-bottom: 10px;
+  color: rgb(203, 191, 191);
+}
+.stat-list {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(203, 191, 191);
+  padding: 10px;
+  border: 1px solid black;
+}

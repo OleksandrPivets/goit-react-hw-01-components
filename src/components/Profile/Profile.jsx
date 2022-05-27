@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-// import './profile.css'
+import './profile.css';
 
 const Profile = ({
   avatar,

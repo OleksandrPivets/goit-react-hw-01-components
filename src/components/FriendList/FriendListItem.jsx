@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-
+import './friendlist.css';
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <li className="{s.item}">
