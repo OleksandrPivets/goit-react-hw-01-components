@@ -1,15 +1,16 @@
 import PropTypes from 'prop-types';
-import './friendlist.css';
+import s from './friendlist.module.css';
+
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
-    <li className="{s.item}">
+    <li className={s.Item}>
       {isOnline ? (
-        <span className="{s.status && s['status--online']}">{isOnline}</span>
+        <span className={s.online}>{isOnline}</span>
       ) : (
-        <span className="{s.status && s['status--offline']}">{isOnline}</span>
+        <span className={s.offline}>{isOnline}</span>
       )}
-      <img className="{s.avatar}" src={avatar} alt={name} width="48" />
-      <p className="{s.name}"> {name}</p>
+      <img className={s.avatar} src={avatar} alt={name} width="48" />
+      <p className={s.name}> {name}</p>
     </li>
   );
 };

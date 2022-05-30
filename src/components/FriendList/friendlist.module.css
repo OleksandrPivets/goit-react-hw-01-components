@@ -1,0 +1,44 @@
+.FriendList {
+  display: block;
+  width: 200px;
+  text-align: center;
+
+  padding: 15px;
+  margin: 0 auto 20px;
+  background-color: gray;
+}
+
+.Item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #b1b1b138;
+  padding: 10px;
+}
+
+.Item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.online {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.offline {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}

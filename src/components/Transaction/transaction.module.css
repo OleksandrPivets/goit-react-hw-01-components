@@ -1,0 +1,25 @@
+.transaction {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  padding: 20px;
+  margin: 0 auto 20px;
+}
+
+.data {
+  width: 115px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.tableHead {
+  background-color: #ccc;
+  border: 1px solid black;
+}
+
+.tableRow {
+  width: 115px;
+  padding: 5px 10px;
+}

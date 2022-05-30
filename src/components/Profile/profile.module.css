@@ -10,6 +10,7 @@
 .avatar {
   margin-bottom: 5px;
   border-radius: 50%;
+  border: 1px solid black;
 }
 .description {
   margin: 0 auto;
